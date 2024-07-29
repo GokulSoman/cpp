@@ -2,6 +2,11 @@
 #include <string>
 #include <algorithm>
 
+
+// Given two strings s and t, return true if the two strings are anagrams of each other, otherwise return false.
+//
+// An anagram is a string that contains the exact same characters as another string, but the order of the characters can be different.
+
 bool is_anagram(std::string s, std::string t){
 	// Check character exists
 	if (s.size() == 0 || t.size() == 0){
